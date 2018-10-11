@@ -4,9 +4,9 @@ title = "Homepage"
 
 [mediaTypes]
   [mediaTypes."application/json"]
-    suffix = "json"
+    suffixes = ["json"]
   [mediaTypes."text/html"]
-    suffix = "html"
+    suffixes = ["html"]
 
 # Redefine HTML to update its media type.
 #[outputFormats]
