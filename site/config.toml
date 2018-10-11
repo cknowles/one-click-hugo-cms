@@ -7,3 +7,15 @@ title = "Homepage"
     suffix = "json"
   [mediaTypes."text/html"]
     suffix = "html"
+
+# Redefine HTML to update its media type.
+#[outputFormats]
+#  [outputFormats.HTML]
+#    mediaType = "text/html"
+
+[outputs]
+  home = ["HTML", "AMP", "RSS", "JSON"]
+  page = ["HTML"]
+  section = ["HTML", "RSS", "JSON"]
+  taxonomy = ["HTML", "RSS", "JSON"]
+  taxonomyTerm = ["HTML", "RSS", "JSON"]
